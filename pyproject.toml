@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bmm-server"
+version = "0.1.0"
+description = "Biblical Meaning Maps Local Server - Serves BHSA passage data on demand"
+authors = ["Your Name <you@example.com>"]
+readme = "BMM_WORKSHOP_README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^3.0.0"
+flask-cors = "^4.0.0"
+text-fabric = "*"
+pygithub = "<2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
